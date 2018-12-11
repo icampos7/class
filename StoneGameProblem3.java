@@ -27,3 +27,26 @@ Step 1 Define the problem:the problem is asking to get the most piles of stones.
 whom ever get the most point wins in this case alex wins for the simple reason he got the first place.
 if the pile is odd then it just one pile which it has to be less than or equal to 500.Lets say the array is [6,4,3] would the second player
 outomatic lose?.
+  Step 2 before starting to code lets break the problem down into smaller ones: 
+  for(read the array){
+   User can take [5,    ,5] the first pile or the last 
+     if(user pick index 0 || index 3 )  //in this case the last index is 3
+        then updated the array [3,4,5] || [5,3,4]
+       array[i] = i + 1;
+    store player one points = n;
+    store player two points = n; //because he hasnt got any points
+  }
+another solution can be ones the first player chose the pile updated the array then read the array again
+ for(read the updated array )
+   //player two can now get the piles of the stones
+      [5,3,4] || [3,4,5]
+      player two can chose 
+      if(player chosed the piles )
+        array[i] = i + 1;//updated array and store points 
+        player one n points 
+        player two n points
+  }
+  the game will continue till  ones a players hits null then it will return 
+  the sum of the player points 
+  if (Player One has greater point than player Two || Player Two > player One )
+    then return or print who one 
