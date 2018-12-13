@@ -14,3 +14,26 @@ if the input was 4
 the n it would be 4 = 2+2,2*2 = 4 so the max product can be 4 
 first we ask are self is this an array? or is it safe to assume it just integers.
 first get the user input 
+let say it -1 then if thats the case the code should 
+return null or 0;
+after we should get the max numbers 
+Step 2 check if i can break the problem : first lets solve how to read the num
+  for(...; i<num;...);
+    while (the num >= 1 ) the this will check every single number thats greater than 1 
+      
+      then we read again starting from 1
+      for(int j = 1;...; j++)
+        this will addd and multiply the num[i]
+          addnum += i;
+          mulnum *= i-j;
+
+//the method should return 
+static int PerfectSquare(int num){
+    for(int i = 0; i<= num; i++){//check the numbers 
+       while(numbers is not -1)
+          then we check the num       
+            for(int j = 1; i<=num; j++
+                saveAns+= i;
+                mulnum *= i-j
+                
+               // return add
