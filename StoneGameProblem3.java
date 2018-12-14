@@ -22,7 +22,17 @@ Note:
 2. piles.length is even.
 3. 1 <= piles[i] <= 500
 4. sum(piles) is odd.
-
+  
+  
+  case 1: [5,11] -> if case one have two numbers then it would be unfair for the s]econd player that choses a pile 
+    if its the case then -> it would be better to add another pile [5,11, new value] which the new value could be 10.
+     case one we can add a number to be fair. 
+     [5 , 11 , 1 + new value]
+      
+      Step 2 : a way to we can implement is as 1D array if array < 2 then it would be unfair
+       array > 2 then we add 1 + new number
+      
+/********************************************************************************************************************************/      
 Step 1 Define the problem:the problem is asking to get the most piles of stones.the user can only get the front or last pile of rocks
 whom ever get the most point wins in this case alex wins for the simple reason he got the first place.
 if the pile is odd then it just one pile which it has to be less than or equal to 500.Lets say the array is [6,4,3] would the second player
