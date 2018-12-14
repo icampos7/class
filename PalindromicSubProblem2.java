@@ -12,6 +12,17 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 Note:
 1. The input string length won't exceed 1000.
  //
+ case 1: the string exides in that case we remove the last num of the string
+ {"a",....."i"} i is the last num that exceds then we remove the first or last string 
+ 
+ Step 2:
+ one way to implement is by adding everything to and array of strings
+ 
+ 
+ {this will check how many elements their are }
+for( i>1000; then if it exced)
+ 
+ 
 step 1 Define the problem : The problem is asking to count how many palindromes are in a
 substring if any letters repeat then count them as well one of the possible solution is
 doing a counter.First we start by reading the string/substring  we will let N be the length
