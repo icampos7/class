@@ -9,6 +9,13 @@ Input: 10
 Output: 36
 Explanation: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36.
 Note: You may assume that n is not less than 2 and not larger than 58.
+  Case 1 : what if the integer is a negative then the maximize could be 
+  -1 + -1, however in this problem it only asking for positive int n ;
+Step 2 : store the integer on a 1D array [10]
+compute the sum and product
+  
+  
+  
 Step 1 Define the problem:The problem is asking to get the max product of the input 
 if the input was 4 
 the n it would be 4 = 2+2,2*2 = 4 so the max product can be 4 
